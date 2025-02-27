@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create  # Specifies Hibernate's database schema generation strategy.
+      ddl-auto: update  # Specifies Hibernate's database schema generation strategy.
                         # Options: 
                         # - `create` (Drops and creates the database schema at startup)
                         # - `update` (Modifies schema without dropping data)
